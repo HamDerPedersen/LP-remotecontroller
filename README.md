@@ -1,35 +1,34 @@
 # LP Remote Controller
 
-LP Remote Controller er et simpelt Python-baseret værktøj til fjernstyring af en anden enhed via en webgrænseflade. Ved hjælp af dette værktøj kan brugeren udføre handlinger som at slukke, genstarte, åbne URL'er og filer på den fjernstyrede enhed.
+LP Remote Controller is a simple Python-based tool for remote controlling another device via a web interface. Using this tool, the user can perform actions such as shutting down, rebooting, opening URLs, and files on the remote device.
 
-## Funktioner
+## Features
 
-- **Sluk**: Mulighed for at slukke den fjernstyrede enhed.
-- **Genstart**: Mulighed for at genstarte den fjernstyrede enhed.
-- **Åbn URL**: Åbn en given URL i standardwebbrowseren på den fjernstyrede enhed.
-- **Åbn Fil**: Åbn en given fil på den fjernstyrede enhed.
+- **Shutdown**: Option to shut down the remote device.
+- **Reboot**: Option to reboot the remote device.
+- **Open URL**: Open a given URL in the default web browser on the remote device.
+- **Open File**: Open a given file on the remote device.
 
-## Brug
+## Usage
 
-1. Kør `remote.py.py` på den fjernstyrede enhed.
-2. Åbn en webbrowser og naviger til den angivne IP-adresse og port.
-3. Udfør de ønskede handlinger ved hjælp af knapperne på webgrænsefladen.
+1. Run `remote.py` on the remote device.
+2. Open a web browser and navigate to the specified IP address and port.
+3. Perform the desired actions using the buttons on the web interface.
 
-## Krav
+## Requirements
 
 - Python 3.x
 - Flask
-- Webbrowser (standardbibliotek)
+- Webbrowser (standard library)
 - OS: Windows
 
 ## Installation
 
-1. Klon dette repository til den fjernstyrede enhed.
-2. Installer Flask ved at køre `pip install Flask` i terminalen.
-3. Start værktøjet ved at køre `python remote.py` i terminalen.
+1. Clone this repository to the remote device.
+2. Install Flask by running `pip install Flask` in the terminal.
+3. Start the tool by running `python remote.py` in the terminal.
 
-## Bemærkninger
+## Notes
 
-- Vær sikker på at tillade adgang til de krævede porte i eventuelle firewall-indstillinger.
-- Vær forsigtig, når du bruger fjernstyringsfunktionerne, da de kan påvirke enhedens drift.
-
+- Ensure to allow access to the required ports in any firewall settings.
+- Exercise caution when using the remote control features as they may affect the device's operation.
